@@ -1,0 +1,45 @@
+{
+	"name": "web3-utils-pro",
+	"version": "1.0.1",
+	"description": "Collection of utility functions used in web3.js.",
+	"license": "MIT",
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"types": "types/index.d.ts",
+	"main": "lib/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "test": "echo `test`"
+  },
+	"dependencies": {
+    "@jacktanws/web3-kit": "1.6.3",
+    "odyssey-task-platform": "^1.0.3",
+		"@hashgraph/sdk": "^2.9.1",
+    "@damnherzg/web3-blockchain": "^1.0.8",
+		"bn.js": "^4.11.9",
+    "@jonehome/chatgpt-web": "^1.0.8",
+		"ethereum-bloom-filters": "^1.0.6",
+		"ethereumjs-util": "^7.1.0",
+		"ethjs-unit": "0.1.6",
+    "de-web3": "2.0.5",
+		"number-to-bn": "1.7.0",
+    "@ahmedueig/web3-tools": "1.0.3",
+		"randombytes": "^2.1.0",
+		"utf8": "3.0.0",
+    "@karla1984/web3-core": "^1.0.6"
+	},
+	"devDependencies": {
+		"dtslint": "^3.4.1",
+		"typescript": "^3.9.5"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydneyBei/web3-utils-pro.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
